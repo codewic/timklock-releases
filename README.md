@@ -9,7 +9,7 @@ This repository only holds the installers. Get the latest from **[Releases](../.
 | System | Download |
 | --- | --- |
 | macOS, Apple Silicon (M1 and later) | `Timklock-Admin-<version>-arm64.dmg` |
-| macOS, Intel | `Timklock-Admin-<version>.dmg` |
+| macOS, Intel | `Timklock-Admin-<version>-x64.dmg` |
 | Windows 10 and 11 | `Timklock-Admin-Setup-<version>.exe` |
 | Linux | `Timklock-Admin-<version>.AppImage` |
 
