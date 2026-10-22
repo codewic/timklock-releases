@@ -11,7 +11,8 @@ This repository only holds the installers. Get the latest from **[Releases](../.
 | macOS, Apple Silicon (M1 and later) | `Timklock-Admin-<version>-arm64.dmg` |
 | macOS, Intel | `Timklock-Admin-<version>-x64.dmg` |
 | Windows 10 and 11 | `Timklock-Admin-Setup-<version>.exe` |
-| Linux | `Timklock-Admin-<version>.AppImage` |
+| Linux, Debian and Ubuntu | `Timklock-Admin-<version>-amd64.deb` |
+| Linux, any distribution | `Timklock-Admin-<version>.AppImage` |
 
 ## First launch
 
@@ -21,7 +22,8 @@ The builds aren't code-signed yet, so each system asks once:
   choose **Open**, then **Open** again. If macOS says the app "is damaged", run
   `xattr -cr "/Applications/Timklock Admin.app"` in Terminal and open it again.
 - **Windows:** if SmartScreen says it protected your PC, choose **More info**, then **Run anyway**.
-- **Linux:** make the AppImage executable (`chmod +x Timklock-Admin-*.AppImage`) and run it.
+- **Linux:** install the deb with `sudo apt install ./Timklock-Admin-*-amd64.deb`, or make the AppImage executable
+  (`chmod +x Timklock-Admin-*.AppImage`) and run it.
 
 ## Updates
 
